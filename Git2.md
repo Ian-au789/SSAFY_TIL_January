@@ -39,3 +39,7 @@
 **git stash list** : stash들의 목록 확인 (일련번호 존재)
 
 **git stash pop** : stash했던 변경사항 다시 불러오기기
+
+**git rm --cached 파일명** : Staging area에 올라간 파일을 working directory로 되돌리기 (commit을 안 만든 경우)
+
+**git restore --staged 파일명** : Staging area에 올라간 파일을 working directory로 되돌리기 (commit을 만든 경우)
