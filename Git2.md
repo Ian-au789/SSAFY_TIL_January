@@ -16,7 +16,9 @@
 
 **git revert <commit_id>** : 단일 commit의 실행 취소 (revert했다는 기록이 남음)
 
-**git reset [옵션] <commit_id>** : 특정 commit으로 돌아갔을 때 그 이후의 commit 전부 삭제
+**git reset [옵션] <commit_id>** : 특정 commit으로 돌아갔을 때 그 이후의 commit 전부 삭제 or 삭제된 commit 복원
+
+**git reflog** : 삭제된 commit 기록 확인인
 
 옵션 soft, mixed, hard 에 따라 저장되는 장소가 달라짐
 
