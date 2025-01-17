@@ -20,9 +20,15 @@
 
 옵션 soft, mixed, hard 에 따라 저장되는 장소가 달라짐
 
+**--soft** : commit을 삭제하고 modification을 staging area에 저장 (초록색 글씨)
+
+**--mixed** : commit을 삭제하고 modification을 working directory에 저장 (빨간간색 글씨)
+
+**--hard** : commit을 삭제하고 modification 완전삭제
+
 ## Undoing
 
-**restore** : modify한 내용 전부 삭제 (위험하니까 쓰지 마라라)
+**restore** : modify한 내용 전부 삭제 (위험하니까 쓰지 마라)
 
 **stash** : modify한 내용을 숨겨서 다른 곳에 저장 (Recommend)
 
