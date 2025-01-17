@@ -26,6 +26,8 @@ __git commit -m "commit name"__ : commit 생성해서 저장
 
 **.gitignore** : 공개하고 싶지 않은 문서 파일명 저장
 
+**git config --global user.email "메일주소"** & **git config --global user.name "이름"** : 작성자 (Author) 정보 설정
+
 ---
 ### 주의사항
 
