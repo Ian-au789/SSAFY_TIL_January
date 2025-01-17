@@ -12,7 +12,7 @@ __master__ : working directory
 ## 명령어
 __git init__ : master 설정 = commit 작성 시작한다
 
-__git add "file name"__ : 변경사항 store
+__git add "file name"__ : 변경사항 stage로 보내기기
 
 __git commit -m "commit name"__ : commit 생성해서 저장
 
@@ -46,5 +46,5 @@ rm : 파일 (폴더 제외) 삭제
 
 cd : 디렉토리 변경
 
-.. : 이전
+.. : 상위 디렉토리
 
