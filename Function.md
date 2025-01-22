@@ -79,3 +79,17 @@ def 함수이름(input1, input2, ..) :
 7. map(function, iterable) : 순회 가능한 데이터구조의 모든 요소에 함수를 적용하고 그 결과를 map object로 반환
 
 8. zip(*iterables) : 임의의 iterable을 모아 tuple을 원소로 하는 zip object 반환
+
+## 함수의 Scope
+
+- global scope : 코드 어디서든 참조할 수 있는 공간
+
+- local scope : 함수 내부에서만 참조 가능한 공간
+
+- local scope는 함수 종료와 함께 사라지기 때문에 global scope에서는 호출 불가가
+
+- built-in scope : 모든 것을 담고 있는 공간 (내장함수)
+
+- LEGB Rule : 범위가 적은 공간에서부터 넓은 공간 순서로 변수 이름 탐색 (sum이라는 변수를 지정하면 내장함수 sum 사용 불가)
+
+- 
