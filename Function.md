@@ -78,6 +78,8 @@ def 함수이름(input1, input2, ..) :
 
 7. map(function, iterable) : 순회 가능한 데이터구조의 모든 요소에 함수를 적용하고 그 결과를 map object로 반환
 
+    - map은 object로 저장된 형태에서는 동작 실행 x , 반드시 list나 set 같은 걸로 감싸서 실행해야 함
+
 8. zip(*iterables) : 임의의 iterable을 모아 tuple을 원소로 하는 zip object 반환
 
 ## 함수의 Scope
