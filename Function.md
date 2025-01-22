@@ -45,7 +45,7 @@ def 함수이름(input1, input2, ..) :
 
 ## 재귀함수
 
-- 함수 내부에서서 자기 자신을 호출하는 함수
+- 함수 내부에서서 자기 자신을 호출하는 함수 
 
 - 예시 : 팩토리얼(!) 
 
@@ -63,3 +63,19 @@ def 함수이름(input1, input2, ..) :
 
 ## 내장 함수
 
+파이썬이 기본적으로 제공하는 함수 (import 필요 x)
+
+자주 사용하는 내장 함수 목록
+
+1. len() : sequence 길이 측정
+2. max() : 가장 큰 값 반환
+3. min() : 가장 작은 값 반환
+4. sum() : sequence의 요소들의 합 반환
+5. sorted() : sequence의 순서 정렬
+6. print() : 터미널에 입력된 값 출력
+
+    ### 유용한 고난도 함수
+
+7. map(function, iterable) : 순회 가능한 데이터구조의 모든 요소에 함수를 적용하고 그 결과를 map object로 반환
+
+8. zip(*iterables) : 임의의 iterable을 모아 tuple을 원소로 하는 zip object 반환
