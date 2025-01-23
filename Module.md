@@ -22,4 +22,4 @@
 
 - 외부 패키지는 pip 커맨드로 설치 후 import
 
-- requests 패키지 : 외부 API 서버 요청
+- (**중요!**) requests 패키지 : 외부 API 서버 요청
