@@ -7,3 +7,6 @@
 
 You have to use personal access token to first push the commit in Mac
 
+installing python is another issue.
+
+# How to run python in Mac (VS code)
