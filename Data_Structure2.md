@@ -31,4 +31,13 @@
 
 - .pop(x) : x 항목을 반환하고 해당 항목 제거
 
-- .update(iterable) : iterable 안의 항목들 전부 
+- .update(iterable) : iterable 안의 요소들 전부 set에 추가
+
+### 집합 메서드 / 연산자
+
+- set1.difference(set2) / set1 - set2 : 차집합
+
+- set1.intersection(set2) / set1 & set2 : 교집합
+
+- set1.union(set2) / set1 | set2 : 합집합
+
