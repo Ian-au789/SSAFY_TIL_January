@@ -74,6 +74,10 @@ def 함수이름(input1, input2, ..) :
 5. sorted() : sequence의 순서 정렬
 6. print() : 터미널에 입력된 값 출력
 
+실습에 나온 함수 
+
+1. reversed() : 문자열 역순으로 반환, 단 원본의 데이터 타입이 아닌 iterator 형태로 변환해서 추가 작업 필요
+
     ### 유용한 고난도 함수
 
 7. map(function, iterable) : 순회 가능한 데이터구조의 모든 요소에 함수를 적용하고 그 결과를 map object로 반환
