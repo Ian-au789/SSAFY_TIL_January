@@ -39,3 +39,7 @@ class Person:
     p1 = Person('Alice', 25)
     p2 = Person('Bella', 30)
 
+ex) 변수에 값을 할당할 때 그 변수는 해당 데이터 타입 클래스의 인스턴스이다. (str, int, list, dict..)
+
+메서드도 데이터 타입 클래스에 만들어져 있는 동작
+
